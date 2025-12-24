@@ -725,7 +725,7 @@ def main():
     classCanvas.bind_all("<MouseWheel>", _on_mousewheel)
 
     controls = Frame(root)
-    controls.grid(row=10, sticky=W)
+    controls.grid(row=10, sticky=W, pady=12)
 
     addClassButtonSpace = IntVar()
     addClassButtonSpace.set(9)
